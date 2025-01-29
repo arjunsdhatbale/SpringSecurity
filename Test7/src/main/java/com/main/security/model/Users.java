@@ -1,4 +1,4 @@
-package com.main.model;
+package com.main.security.model;
 
 import org.hibernate.annotations.GeneratorType;
 

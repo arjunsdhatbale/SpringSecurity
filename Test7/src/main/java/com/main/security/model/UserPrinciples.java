@@ -1,4 +1,4 @@
-package com.main.model;
+package com.main.security.model;
 
 import java.util.Collection;
 import java.util.Collections;

@@ -1,12 +1,12 @@
-package com.main.controller;
+package com.main.security.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.main.model.Users;
-import com.main.service.UserService;
+import com.main.security.model.Users;
+import com.main.security.service.UserService;
 
 @RestController
 public class UserController {

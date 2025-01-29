@@ -1,4 +1,4 @@
-package com.main.service;
+package com.main.security.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationManager;
@@ -7,8 +7,8 @@ import org.springframework.security.core.Authentication;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import com.main.model.Users;
-import com.main.repo.UserRepo;
+import com.main.security.model.Users;
+import com.main.security.repo.UserRepo;
 
 @Service
 public class UserService {
