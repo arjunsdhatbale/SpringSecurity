@@ -1,7 +1,6 @@
 package com.main.security.model;
 
-import org.hibernate.annotations.GeneratorType;
-
+ 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 import jakarta.persistence.Entity;
